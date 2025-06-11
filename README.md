@@ -7,3 +7,6 @@ In the context of post-COVID-19 living, the system also addresses concerns about
 Beyond mere convenience, IIUM Ride encourages responsible and sustainable usage of shared vehicles, reducing the number of underutilised cars on campus and promoting more efficient transportation. Instead of everyone owning a car, multiple users can access the same vehicle over time, contributing to a greener, more organised campus environment.
 To further improve user experience, the system includes real-time updates on vehicle availability, in-app reminders for return times, and a rating system for users to provide feedback. Support is always within reach through the platform's integrated helpdesk, where users can report issues or request assistance with their bookings.
 In conclusion, IIUM Ride’s self-drive system is more than just a rental service; it is a step forward in transforming campus life. By offering students and staff the freedom to move at their own pace, it addresses a growing need for flexible, safe, and efficient mobility within and beyond the university. With IIUM Ride, getting from point A to B becomes simpler, smarter, and more sustainable.
+
+
+The code structure is just the index.html having a navigation bar that swapping to other html page.
