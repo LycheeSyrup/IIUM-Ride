@@ -1,0 +1,78 @@
+<!-- checkout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout - IIUM Ride</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo">IIUM Ride</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Cars</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <section class="checkout-container">
+    <h2>Checkout</h2>
+
+    <div class="rental-summary">
+      <h3>Rental Summary</h3>
+      <div class="summary-content">
+        <div class="car-placeholder"></div>
+        <div class="summary-text">
+          <p><strong>Pickup:</strong> MM/DD/YYYY, 00:00 AM/PM</p>
+          <p><strong>Return:</strong> MM/DD/YYYY, 00:00 AM/PM</p>
+          <p><strong>Time Duration:</strong> </p>
+          <p><strong>Rental Price:</strong> RM 00.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="payment-section">
+      <h3>Payment</h3>
+      <div class="payment-options">
+        <button class="pay-btn selected">Credit/ Debit Card</button>
+        <button class="pay-btn">Online Banking</button>
+        <button class="pay-btn">E-Wallet</button>
+      </div>
+
+      <form class="payment-form">
+        <label>Card Number:</label>
+        <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" />
+
+        <div class="row">
+          <div class="column">
+            <label>Expiry Date:</label>
+            <input type="text" placeholder="MM/YY" />
+          </div>
+          <div class="column">
+            <label>CVV:</label>
+            <input type="text" placeholder="123" />
+          </div>
+        </div>
+
+        <div class="terms">
+          <input type="checkbox" id="agree" />
+          <label for="agree">I agree to the terms & conditions</label>
+        </div>
+
+        <button type="submit" class="btn confirm-btn">Confirm & Pay</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IIUM Ride. All rights reserved.</p>
+  </footer>
+</body>
+</html>
